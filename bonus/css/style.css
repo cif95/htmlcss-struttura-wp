@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	color:rgb(179, 179, 179);
+	background: url(../img/bg.png) center / cover;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+   font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+nav, #main-logo-text{
+	line-height: 70px;
+}
+
+li{
+	display: inline-block;
+	margin-left: 180px;
+}
+
+li a{
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius:20px;
+	padding:2px 5px;
+}
+
+li a:visited{
+	color:rgb(99, 96, 96);
+}
+
+li a:hover{
+	font-size: 1.5em;
+	outline: 1px solid white;
+}
+
+section{
+	width: 100%;
+	background-color: #5e5e5e33;
+}
+
+aside{
+	height: 300px;
+	min-width: 150px;
+	overflow-y: scroll;
+	width:calc((40% / 2) - 15px);
+	background-color: rgba(0, 0, 0, 0.171);
+}
+
+article{
+	width:60%;
+	padding:20px;
+	min-width:250px;
+	margin:0 15px;
+}
+
+article h2{
+	font-size:4em;
+}
+
+footer{
+	line-height:50px;
+}
+
+.float-l{
+	float:left;
+}
+
+.banner, section, footer{
+	border-radius:20px;
+	background-color: #b9b9b950;
+}
+
+.banner, aside, section>header{
+	padding:30px;
+}
+
+.margin-bottom{
+	margin-bottom:20px;
+}
+
+.clearfix{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.container{
+	width:95%;
+	padding-top:70px;
+	margin:0 auto 8px;
+}
+
+#top-bar{
+	top:0;
+	color:white;
+	position: fixed;
+	box-shadow: 1px 2px 1px #919191;
+	background-color:#0c0c5a;
+}
+
+#top-bar, #main-logo>img{
+	width: 100%;
+}
+
+#main-logo{
+	width:70px;
+	height:70px;
+	padding:10px;
+}
+
+#main-logo-text{
+	font-size: 2.5em;
+}
