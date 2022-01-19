@@ -1,13 +1,12 @@
 *{
 	margin:0;
 	padding:0;
-	box-sizing: border-box;
+	box-sizing:border-box;
 }
 
 section{
+	margin-bottom: 8px;
 	background-color: #0386fb;
-	height:400px;
-	margin-bottom: 10px;
 }
 
 section header, footer{
@@ -15,17 +14,17 @@ section header, footer{
 }
 
 aside{
-	width:calc((40% / 2) - 10px);
+	width:calc((40% / 2) - 15px);
 }
 
 aside, article{
-	height:400px;
 	float:left;
+	height:400px;
 }
 
 article{
 	width:60%;
-	margin: 0 10px;
+	margin: 0 15px;
 }
 
 footer{
@@ -33,9 +32,9 @@ footer{
 }
 
 div.container{
-	width:80%;
+	width:90%;
+	padding:20px;
 	margin:0 auto;
-	padding:30px;
 }
 
 .margin-bottom{
@@ -57,12 +56,11 @@ div.container{
 }
 
 .header{
-	background-color:#e579e6;
 	height:70px;
+	background-color:#e579e6;
 }
 
-
 .banner{
-	background-color: #e1d67a;
 	height:300px;
+	background-color: #e1d67a;
 }
