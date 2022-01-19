@@ -3,3 +3,66 @@
 	padding:0;
 	box-sizing: border-box;
 }
+
+section{
+	background-color: #0386fb;
+	height:400px;
+	margin-bottom: 10px;
+}
+
+section header, footer{
+	height:50px;
+}
+
+aside{
+	width:calc((40% / 2) - 10px);
+}
+
+aside, article{
+	height:400px;
+	float:left;
+}
+
+article{
+	width:60%;
+	margin: 0 10px;
+}
+
+footer{
+	background-color: #8801fe;
+}
+
+div.container{
+	width:80%;
+	margin:0 auto;
+	padding:30px;
+}
+
+.margin-bottom{
+	margin-bottom: 20px;
+}
+
+.fullwidth{
+	width:100%;
+}
+
+.lightblue-bg{
+	background-color:#abcfe7;
+}
+
+.clearfix{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.header{
+	background-color:#e579e6;
+	height:70px;
+}
+
+
+.banner{
+	background-color: #e1d67a;
+	height:300px;
+}
