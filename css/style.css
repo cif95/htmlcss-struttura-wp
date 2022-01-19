@@ -5,6 +5,7 @@
 }
 
 section{
+	width:100%;
 	margin-bottom: 8px;
 	background-color: #0386fb;
 }
@@ -44,10 +45,6 @@ body{
 
 .margin-bottom{
 	margin-bottom: 20px;
-}
-
-.fullwidth{
-	width:100%;
 }
 
 .banner{
