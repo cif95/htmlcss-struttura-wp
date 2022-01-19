@@ -9,7 +9,7 @@ section{
 	background-color: #0386fb;
 }
 
-section header, footer{
+section>header, footer{
 	height:50px;
 }
 
@@ -31,7 +31,12 @@ footer{
 	background-color: #8801fe;
 }
 
-div.container{
+header{
+	height:70px;
+	background-color:#e579e6;
+}
+
+body{
 	width:90%;
 	padding:20px;
 	margin:0 auto;
@@ -45,6 +50,11 @@ div.container{
 	width:100%;
 }
 
+.banner{
+	height:300px;
+	background-color: #e1d67a;
+}
+
 .lightblue-bg{
 	background-color:#abcfe7;
 }
@@ -55,12 +65,3 @@ div.container{
 	display: table;
 }
 
-.header{
-	height:70px;
-	background-color:#e579e6;
-}
-
-.banner{
-	height:300px;
-	background-color: #e1d67a;
-}
